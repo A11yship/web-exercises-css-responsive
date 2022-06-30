@@ -16,3 +16,10 @@
     grid-template-columns: 40vw 40vw;
   }
 }
+
+@media (min-width: 1000px) {
+  .main-area {
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+  }
+}
